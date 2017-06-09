@@ -1,0 +1,79 @@
+public class ArrayList //before generic classes
+{
+	private Object[] elementData;
+	public Object get(int i){}
+	public void add(Object o){}
+}
+ArrayList files=new ArrayList();
+String filename=(String)files.get(0);
+files.add(new File("");
+
+泛型
+ArrayList<String> files=new ArrayList<String>();
+ArrayList<String> files=new ArrayList<>();
+泛型程序设计划分为3个能力级别：
+仅仅使用泛型类，如ArrayList
+
+定义简单泛型类
+定义：一个泛型类就是具有一个或多个类型变量的类
+public class Pair<T>
+{
+	private T first;
+	private T second;
+	public Pair(){first=null;second=null;}
+	public Pair(T first,T second){this.first=first;this.second=second;}
+	
+	public T getFirst(){return first;}
+	public T getSecond(){return second;}
+	
+	public void setFirst(T newValue){ first=newValue;}
+	public void setSecond(T newValue){ second=newValue;}
+}
+
+public class Pair<T,U>{};
+
+Pair<String>
+Pair<String>()
+Pair<String>(String,String)
+String getFirst()
+String getSecond()
+void setFirst(String)
+void setSecond(String)
+泛型类可以看做普通类的工厂
+
+package pair1;
+public class PairTest1()
+{
+	String[] words={"Mary","had","a","little","lamb"};
+	Pair<String> mm=ArrayAlg.minmax(words);
+	System.out.println("min="+mm.getFirst());
+	System.out.println("max="+mm.getSecond());
+}
+class ArrayAlg
+{
+	public static Pair<String> minmax(String[] a)
+	{
+		if(a==null || a.length==0)return null;
+		String min=a[0]
+		String max=a[0];
+		for(int i=1;i<a.length;i++)
+		{
+			if(min.compareTo(a[i]>0))min=a[i];
+			if(max.compareTo(a[i]<0))max=a[i];
+		}
+		return new Pair<>(min,max);
+	}
+}
+
+定义一个带有类型参数的简单方法
+class ArrayAlg
+{
+	public static <T> T getMiddle(T...a)
+	{
+	return a[a.length/2];
+	}
+}
+泛型方法可以定义在简单类中，也可以定义在泛型类中
+调用泛型方法
+String middle=ArrayAlg.<String>getMiddle("John","Q","Public");
+double middle=ArrayAlg.getMiddle(3.14,1729,0);
