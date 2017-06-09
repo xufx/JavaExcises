@@ -1,10 +1,13 @@
+/*
 package set;
 
 import sun.awt.image.ImageWatched;
 
+*/
 /**
  * Created by Administrator on 2017/6/6.
- */
+ *//*
+
 class CircularArrayQueue implements Queue2<E>
 {
     CircularArrayQueue(int capacity){}
@@ -26,3 +29,4 @@ class  LinkedListedQueue<E> implements Queue2<E>
     private Link head;
     private Link tail;
 }
+*/

@@ -1,8 +1,11 @@
+/*
 package set;
 
+*/
 /**
  * Created by Administrator on 2017/6/6.
- */
+ *//*
+
 public class test
 {
     public static void main(String[] args)
@@ -16,8 +19,4 @@ public class test
 
     }
 }
-public interface Collection<E>
-{
-    boolean add(E element);
-    Iterator<E> iterator();
-}
+*/
