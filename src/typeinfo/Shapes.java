@@ -1,4 +1,6 @@
 package typeinfo;
+import javafx.scene.transform.Rotate;
+
 import java.util.Arrays;
 import java.util.List;
 /**
@@ -42,12 +44,20 @@ class Rhomboid extends Shape
 }
 public class Shapes
 {
+    public static void Rotate(Shape s)
+    {
+        if (s instanceof Circle)System.exit(1);
+    }
     public static void main(String[] args)
-    {//向上转型时丢失了Shape对象的具体类型，Object转型为Shape
+    {//将Circle、Square、Triangle等向上转型为Object，再Object转型为Shape
         List<Shape> shapeList= Arrays.asList(new Circle(),new Square(),new Triangle(),new Rhomboid());
+
         for(Shape shape:shapeList)
         {
-            shape.draw();
+            //shape.draw();//多态
+            //Rotate(shape);
+            System.out.println(shape);
+
         }
     }
 }

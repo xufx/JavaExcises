@@ -47,11 +47,11 @@ public class ToyTest
             {
                 printInfo(face);
             }
-            Class up=c.getSuperclass();
+            Class up=c.getSuperclass();//获得类Toy
             Object obj=null;
             try
             {
-                obj=up.newInstance();
+                obj=up.newInstance();//创建实例
             }
             catch (InstantiationException e)
             {

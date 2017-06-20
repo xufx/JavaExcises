@@ -1,15 +1,17 @@
 package typeinfo.pets;
 import java.util.*;
-/**
+/**随机创建任意类型的宠物
  * Created by Administrator on 2017/6/18.
  */
 public abstract class PetCreator
 {
     private Random rand=new Random(47);
+    //types()方法返回一个序列，序列里面的对象类型都继承自Pet
     public abstract  List<Class<? extends Pet>>types();
 
+    /*创建一个宠物的具体对象*/
     public Pet randomPet()
-    {//随机产生List的索引
+    {//随机产生List的索引，创建任意宠物对象
         int n=rand.nextInt(types().size());
         try
         {
@@ -22,6 +24,7 @@ public abstract class PetCreator
             throw new RuntimeException(e);
         }
     }
+    /*创建size个宠物对象，存到result数组中*/
     public Pet[] createArray(int size)
     {
         Pet[] result=new Pet[size];
@@ -32,10 +35,11 @@ public abstract class PetCreator
         }
         return result;
     }
+    /*创建序列，添加数组到序列后面*/
     public ArrayList<Pet> arrayList(int size)
-    {
-        ArrayList<Pet> result=new ArrayList<Pet>();
-        Collections.addAll(result,createArray(size));
+    {//arrayList方法返回ArrayList序列，序列里面的对象都是Pet类型
+        ArrayList<Pet> result=new ArrayList<Pet>();//result序列存储的是Pet类型的对象
+        Collections.addAll(result,createArray(size));//result列表添加元素
         return result;
     }
 }

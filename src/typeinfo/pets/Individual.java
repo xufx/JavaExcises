@@ -14,7 +14,7 @@ public class Individual implements Comparable<Individual>
     public Individual(){}
     @Override
     public String toString()
-    {//若name==null,return "" 否则返回“ ”+name
+    {//若name==null,类型名，否则返回“ ”+name
         return getClass().getSimpleName()+(name==null ?"":" "+name);
     }
     public Long id(){return id;}

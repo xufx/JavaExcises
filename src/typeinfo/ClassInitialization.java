@@ -1,9 +1,7 @@
 package typeinfo;
-import jdk.internal.org.objectweb.asm.commons.RemappingAnnotationAdapter;
 
 import java.util.Random;
-import java.util.concurrent.ExecutionException;
-/**
+/**获得类的引用有两种方式
  * Created by Administrator on 2017/6/18.
  */
 class Initable
@@ -31,12 +29,12 @@ public class ClassInitialization
    public static Random rand=new Random();
     public static void main(String[] args)throws Exception
     {
-        Class initable=Initable.class;
+        Class initable=Initable.class;//调用时不会初始化Initable
             System.out.println("After creating Initable ref");
         System.out.println(Initable.staticFinal1);
         System.out.println(Initable.staticFinal2);
         System.out.println(Initable2.staticNonFinal);
-        Class initable3=Class.forName("typeinfo.Initable3");
+        Class initable3=Class.forName("typeinfo.Initable3");//会初始化类
         System.out.println("After creating Initable3 ref");
         System.out.println(Initable3.staticNonFinal);
     }

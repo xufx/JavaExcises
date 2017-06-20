@@ -15,7 +15,7 @@ class CountedInteger
 }
 public class FilledList<T>
 {
-    private Class<T> type;
+    private Class<T> type;//定义了一个序列类type
     public FilledList(Class<T> type){this.type=type;}
     {
     }
@@ -26,7 +26,7 @@ public class FilledList<T>
         {
             for (int i = 0; i < nElements; i++)
             {
-                result.add(type.newInstance());
+                result.add(type.newInstance());//序列里添加实例
             }
         }catch(Exception e)
         {
@@ -36,7 +36,7 @@ public class FilledList<T>
 
     }
     public static void main(String[] args)
-    {
+    {//序列里只能添加CountedInteger类型的实例
         FilledList<CountedInteger>f1=new FilledList<CountedInteger>(CountedInteger.class);
         System.out.println(f1.create(15));
     }

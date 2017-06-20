@@ -36,42 +36,211 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6df1ebf-1d96-4286-ad60-92df38eb9f62" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/holding/AddingGroups.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/holding/ApplesAndOrangesWithGenerics.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/holding/ApplesAndOrangesWithoutGenerics.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/holding/AsListInference.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/holding/CoolectionTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/holding/GenericsAndUpcasting.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/holding/Gerbil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/holding/ListFeatures.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/holding/PrintingContainers.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/holding/SimpleCollection.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/holding/SimpleIteration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/typeinfo/BoundedClassRefernces.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/typeinfo/ClassCasts.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/typeinfo/ClassInitialization.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/typeinfo/FilledList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/typeinfo/GenericClassReferences.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/typeinfo/Shapes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/typeinfo/SweetShop.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/typeinfo/WildcardClassRefernces.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/typeinfo/pets/Cat.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/typeinfo/pets/Cymric.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/typeinfo/pets/Dog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/typeinfo/pets/EgyptianMau.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/typeinfo/pets/Hamster.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/typeinfo/pets/Individual.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/typeinfo/pets/Manx.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/typeinfo/pets/Mouse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/typeinfo/pets/Mutt.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/typeinfo/pets/Person.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/typeinfo/pets/Pet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/typeinfo/pets/PetCreator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/typeinfo/pets/Pug.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/typeinfo/pets/Rat.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/typeinfo/pets/Rodent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/typeinfo/toys/ToyTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/simple/List.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/simple/Vector.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/BasicGenerator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/BinaryFile.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/CollectionData.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/ContainerMethodDifferences.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/ConvertTo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/CountingGenerator$Boolean.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/CountingGenerator$Byte.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/CountingGenerator$Character.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/CountingGenerator$Double.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/CountingGenerator$Float.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/CountingGenerator$Integer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/CountingGenerator$Long.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/CountingGenerator$Short.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/CountingGenerator$String.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/CountingGenerator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/CountingIntegerList.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/CountingMapData$Entry.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/CountingMapData.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/Countries$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/Countries$FlyweightMap$Entry.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/Countries$FlyweightMap$EntrySet$Iter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/Countries$FlyweightMap$EntrySet.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/Countries$FlyweightMap.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/Countries.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/DaemonThreadFactory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/DaemonThreadPoolExecutor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/Deque.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/Directory$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/Directory$TreeInfo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/Directory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/Enums.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/FiveTuple.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/FourTuple.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/Generated.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/Generator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/Hex.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/MapData.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/New.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/Null.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/OSExecute.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/OSExecuteException.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/PPrint.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/Pair.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/Print.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/ProcessFiles$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/ProcessFiles$Strategy.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/ProcessFiles.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/RandomGenerator$Boolean.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/RandomGenerator$Byte.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/RandomGenerator$Character.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/RandomGenerator$Double.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/RandomGenerator$Float.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/RandomGenerator$Integer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/RandomGenerator$Long.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/RandomGenerator$Short.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/RandomGenerator$String.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/RandomGenerator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/Range.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/Sets.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/Stack.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/SwingConsole$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/SwingConsole.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/TaskItem.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/TaskManager.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/TextFile.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/ThreeTuple.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/Tuple.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/TwoTuple.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/mindview/util/TypeCounter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/AirFilter$Factory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/AirFilter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/Base.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/Belt.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/CabinAirFilter$Factory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/CabinAirFilter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/ClassTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/Derived.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/FamilyVsExactType.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/FanBelt$Factory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/FanBelt.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/Filter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/FuelFilter$Factory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/FuelFilter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/GeneratorBelt$Factory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/GeneratorBelt.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/OilFilter$Factory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/OilFilter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/Part.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/PetCount$PetCounter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/PetCount.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/PetCount2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/PetCount3$PetCounter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/PetCount3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/PetCount4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/PowerSteeringBelt$Factory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/PowerSteeringBelt.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/RegisteredFactories.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/WildcardClassReferences.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/factory/Factory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/pets/ForNameCreator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/pets/LiteralPetCreator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/pets/PetCreator2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/pets/Pets.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/toys/GenericToyTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/net/build.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/build.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/mindview/simple/List.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/mindview/simple/Vector.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/mindview/util/BasicGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/mindview/util/BinaryFile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/mindview/util/CollectionData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/mindview/util/ContainerMethodDifferences.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/mindview/util/ConvertTo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/mindview/util/CountingGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/mindview/util/CountingIntegerList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/mindview/util/CountingMapData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/mindview/util/Countries.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/mindview/util/DaemonThreadFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/mindview/util/DaemonThreadPoolExecutor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/mindview/util/Deque.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/mindview/util/Directory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/mindview/util/Enums.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/mindview/util/FiveTuple.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/mindview/util/FourTuple.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/mindview/util/Generated.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/mindview/util/Generator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/mindview/util/Hex.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/mindview/util/MapData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/mindview/util/New.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/mindview/util/Null.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/mindview/util/OSExecute.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/mindview/util/OSExecuteException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/mindview/util/PPrint.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/mindview/util/Pair.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/mindview/util/Print.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/mindview/util/ProcessFiles.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/mindview/util/RandomGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/mindview/util/Range.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/mindview/util/Sets.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/mindview/util/Stack.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/mindview/util/SwingConsole.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/mindview/util/TaskItem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/mindview/util/TaskManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/mindview/util/TextFile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/mindview/util/ThreeTuple.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/mindview/util/Tuple.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/mindview/util/TwoTuple.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/mindview/util/TypeCounter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/typeinfo/ClassTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/typeinfo/FamilyVsExactType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/typeinfo/HiddenImplementation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/typeinfo/InterfaceViolation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/typeinfo/NullRobot.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/typeinfo/Operation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/typeinfo/Person.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/typeinfo/PetCount.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/typeinfo/PetCount2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/typeinfo/PetCount3.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/typeinfo/PetCount4.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/typeinfo/Position.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/typeinfo/RegisteredFactories.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/typeinfo/Robot.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/typeinfo/SelectingMethods.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/typeinfo/ShowMethods.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/typeinfo/SimpleDynamicProxy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/typeinfo/SimpleProxyDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/typeinfo/SnowRemovalRobot.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/typeinfo/Staff.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/typeinfo/factory/Factory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/typeinfo/interfacea/A.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/typeinfo/packageacess/HiddenC.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/typeinfo/pets/ForNameCreator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/typeinfo/pets/LiteralPetCreator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/typeinfo/pets/PetCreator2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/typeinfo/pets/Pets.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/typeinfo/toys/GenericToyTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/WildcardClassRefernces.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/pets/A.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/Candy.class" afterPath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/Candy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/Circle.class" afterPath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/Circle.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/ClassInitialization.class" afterPath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/ClassInitialization.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/Cookie.class" afterPath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/Cookie.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/Gum.class" afterPath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/Gum.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/Initable.class" afterPath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/Initable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/Initable2.class" afterPath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/Initable2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/Initable3.class" afterPath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/Initable3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/Rhomboid.class" afterPath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/Rhomboid.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/Shape.class" afterPath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/Shape.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/Shapes.class" afterPath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/Shapes.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/Square.class" afterPath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/Square.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/SweetShop.class" afterPath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/SweetShop.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/Triangle.class" afterPath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/Triangle.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/pets/PetCreator.class" afterPath="$PROJECT_DIR$/out/production/JavaExcises/typeinfo/pets/PetCreator.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/typeinfo/ClassCasts.java" afterPath="$PROJECT_DIR$/src/typeinfo/ClassCasts.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/typeinfo/ClassInitialization.java" afterPath="$PROJECT_DIR$/src/typeinfo/ClassInitialization.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/typeinfo/FilledList.java" afterPath="$PROJECT_DIR$/src/typeinfo/FilledList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/typeinfo/Shapes.java" afterPath="$PROJECT_DIR$/src/typeinfo/Shapes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/typeinfo/SweetShop.java" afterPath="$PROJECT_DIR$/src/typeinfo/SweetShop.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/typeinfo/pets/Individual.java" afterPath="$PROJECT_DIR$/src/typeinfo/pets/Individual.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/typeinfo/pets/PetCreator.java" afterPath="$PROJECT_DIR$/src/typeinfo/pets/PetCreator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/typeinfo/toys/ToyTest.java" afterPath="$PROJECT_DIR$/src/typeinfo/toys/ToyTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/typeinfo/WildcardClassRefernces.java" afterPath="$PROJECT_DIR$/src/typeinfo/WildcardClassReferences.java" />
     </list>
     <ignored path="JavaExcises.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -99,107 +268,142 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Pug.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/typeinfo/pets/Pug.java">
+      <file leaf-file-name="Staff.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/typeinfo/Staff.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="954">
+              <caret line="56" column="32" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Cat.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/typeinfo/pets/Cat.java">
+      <file leaf-file-name="Operation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/typeinfo/Operation.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EgyptianMau.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/typeinfo/pets/EgyptianMau.java">
+      <file leaf-file-name="Robot.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/typeinfo/Robot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="class#Test#0;class#Robot#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NullRobot.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/typeinfo/NullRobot.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Manx.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/typeinfo/pets/Manx.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cymric.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/typeinfo/pets/Cymric.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Rodent.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/typeinfo/pets/Rodent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="13" column="5" selection-start-line="10" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Rat.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/typeinfo/pets/Rat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+              <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
               <folding>
-                <element signature="e#140#141#0" expanded="true" />
-                <element signature="e#167#168#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#384#385#0" expanded="true" />
+                <element signature="e#442#443#0" expanded="true" />
+                <element signature="e#644#645#0" expanded="true" />
+                <element signature="e#698#699#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Mouse.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/typeinfo/pets/Mouse.java">
+      <file leaf-file-name="A.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/typeinfo/interfacea/A.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="72">
+              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Hamster.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/typeinfo/pets/Hamster.java">
+      <file leaf-file-name="InterfaceViolation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/typeinfo/InterfaceViolation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PetCreator.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/typeinfo/pets/PetCreator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+            <state relative-caret-position="150">
+              <caret line="12" column="49" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="49" />
               <folding>
-                <element signature="method#randomPet#0;class#PetCreator#0" expanded="false" />
+                <element signature="e#159#160#0" expanded="true" />
+                <element signature="e#202#203#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HiddenC.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/typeinfo/packageacess/HiddenC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#213#214#0" expanded="true" />
+                <element signature="e#250#251#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HiddenImplementation.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/typeinfo/HiddenImplementation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SnowRemovalRobot.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/typeinfo/SnowRemovalRobot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
+                <element signature="e#346#347#0" expanded="true" />
+                <element signature="e#391#392#0" expanded="true" />
+                <element signature="e#418#419#0" expanded="true" />
+                <element signature="e#771#772#0" expanded="true" />
+                <element signature="e#831#832#0" expanded="true" />
+                <element signature="e#901#902#0" expanded="true" />
+                <element signature="e#977#978#0" expanded="true" />
+                <element signature="class#1010:1300" expanded="false" />
+                <element signature="e#1215#1216#0" expanded="true" />
+                <element signature="e#1289#1290#0" expanded="true" />
+                <element signature="class#1322:1707" expanded="false" />
+                <element signature="e#1420#1421#0" expanded="true" />
+                <element signature="e#1503#1504#0" expanded="true" />
+                <element signature="e#1597#1598#0" expanded="true" />
+                <element signature="e#1688#1689#0" expanded="true" />
+                <element signature="e#1772#1773#0" expanded="true" />
+                <element signature="e#1836#1837#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Null.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/mindview/util/Null.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -226,45 +430,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/innerclasses/Parcel11.java" />
-        <option value="$PROJECT_DIR$/src/innerclasses/ClassInInterface.java" />
-        <option value="$PROJECT_DIR$/src/innerclasses/TestBed.java" />
-        <option value="$PROJECT_DIR$/src/innerclasses/MultiNestingAccess.java" />
-        <option value="$PROJECT_DIR$/src/innerclasses/MultiInterfaces.java" />
-        <option value="$PROJECT_DIR$/src/innerclasses/MultiImplementation.java" />
-        <option value="$PROJECT_DIR$/src/innerclasses/Callbacks.java" />
-        <option value="$PROJECT_DIR$/src/innerclasses/controller/Event.java" />
-        <option value="$PROJECT_DIR$/src/innerclasses/controller/GreenhouseController.java" />
-        <option value="$PROJECT_DIR$/src/innerclasses/controller/GreenhouseController2.java" />
-        <option value="$PROJECT_DIR$/src/innerclasses/GreenhouseControls.java" />
-        <option value="$PROJECT_DIR$/src/innerclasses/controller/Controller.java" />
-        <option value="$PROJECT_DIR$/src/innerclasses/InheritInner.java" />
-        <option value="$PROJECT_DIR$/src/innerclasses/BigEgg.java" />
-        <option value="$PROJECT_DIR$/src/innerclasses/BigEgg2.java" />
-        <option value="$PROJECT_DIR$/src/innerclasses/LocalInnerClass.java" />
-        <option value="$PROJECT_DIR$/src/holding/ApplesAndOrangesWithGenerics.java" />
-        <option value="$PROJECT_DIR$/src/holding/GenericsAndUpcasting.java" />
-        <option value="$PROJECT_DIR$/src/holding/ApplesAndOrangesWithoutGenerics.java" />
-        <option value="$PROJECT_DIR$/src/holding/Gerbil.java" />
-        <option value="$PROJECT_DIR$/src/holding/SimpleCollection.java" />
-        <option value="$PROJECT_DIR$/src/holding/AddingGroups.java" />
-        <option value="$PROJECT_DIR$/src/holding/AsListInference.java" />
-        <option value="$PROJECT_DIR$/src/holding/PrintingContainers.java" />
-        <option value="$PROJECT_DIR$/src/holding/CoolectionTest.java" />
-        <option value="$PROJECT_DIR$/src/holding/ListFeatures.java" />
-        <option value="$PROJECT_DIR$/src/holding/SimpleIteration.java" />
-        <option value="$PROJECT_DIR$/src/typeinfo/SweetShop.java" />
-        <option value="$PROJECT_DIR$/src/typeinfo/toys/ToyTest.java" />
-        <option value="$PROJECT_DIR$/src/typeinfo/Shapes.java" />
-        <option value="$PROJECT_DIR$/src/typeinfo/ClassInitialization.java" />
-        <option value="$PROJECT_DIR$/src/typeinfo/GenericClassReferences.java" />
-        <option value="$PROJECT_DIR$/src/typeinfo/WildcardClassRefernces.java" />
-        <option value="$PROJECT_DIR$/src/typeinfo/BoundedClassRefernces.java" />
-        <option value="$PROJECT_DIR$/src/typeinfo/FilledList.java" />
-        <option value="$PROJECT_DIR$/src/typeinfo/ClassCasts.java" />
-        <option value="$PROJECT_DIR$/src/typeinfo/pets/Individual.java" />
-        <option value="$PROJECT_DIR$/src/typeinfo/pets/Person.java" />
-        <option value="$PROJECT_DIR$/src/typeinfo/pets/Pet.java" />
         <option value="$PROJECT_DIR$/src/typeinfo/pets/Dog.java" />
         <option value="$PROJECT_DIR$/src/typeinfo/pets/Mutt.java" />
         <option value="$PROJECT_DIR$/src/typeinfo/pets/Pug.java" />
@@ -276,7 +441,46 @@
         <option value="$PROJECT_DIR$/src/typeinfo/pets/Rat.java" />
         <option value="$PROJECT_DIR$/src/typeinfo/pets/Mouse.java" />
         <option value="$PROJECT_DIR$/src/typeinfo/pets/Hamster.java" />
+        <option value="$PROJECT_DIR$/src/typeinfo/toys/ToyTest.java" />
+        <option value="$PROJECT_DIR$/src/typeinfo/Shapes.java" />
+        <option value="$PROJECT_DIR$/src/typeinfo/SweetShop.java" />
+        <option value="$PROJECT_DIR$/src/typeinfo/ClassTest.java" />
+        <option value="$PROJECT_DIR$/src/typeinfo/ClassInitialization.java" />
+        <option value="$PROJECT_DIR$/src/typeinfo/WildcardClassRefernces.java" />
+        <option value="$PROJECT_DIR$/src/typeinfo/FilledList.java" />
+        <option value="$PROJECT_DIR$/src/typeinfo/toys/GenericToyTest.java" />
+        <option value="$PROJECT_DIR$/src/typeinfo/ClassCasts.java" />
+        <option value="$PROJECT_DIR$/src/typeinfo/pets/Individual.java" />
         <option value="$PROJECT_DIR$/src/typeinfo/pets/PetCreator.java" />
+        <option value="$PROJECT_DIR$/src/typeinfo/pets/ForNameCreator.java" />
+        <option value="$PROJECT_DIR$/src/typeinfo/PetCount.java" />
+        <option value="$PROJECT_DIR$/src/typeinfo/pets/LiteralPetCreator.java" />
+        <option value="$PROJECT_DIR$/src/typeinfo/PetCount2.java" />
+        <option value="$PROJECT_DIR$/src/typeinfo/pets/Pets.java" />
+        <option value="$PROJECT_DIR$/src/net/mindview/util/MapData.java" />
+        <option value="$PROJECT_DIR$/src/typeinfo/PetCount3.java" />
+        <option value="$PROJECT_DIR$/src/net/mindview/util/TypeCounter.java" />
+        <option value="$PROJECT_DIR$/src/typeinfo/PetCount4.java" />
+        <option value="$PROJECT_DIR$/src/typeinfo/factory/Factory.java" />
+        <option value="$PROJECT_DIR$/src/typeinfo/RegisteredFactories.java" />
+        <option value="$PROJECT_DIR$/src/typeinfo/pets/PetCreator2.java" />
+        <option value="$PROJECT_DIR$/src/net/mindview/util/Print.java" />
+        <option value="$PROJECT_DIR$/src/typeinfo/FamilyVsExactType.java" />
+        <option value="$PROJECT_DIR$/src/typeinfo/ShowMethods.java" />
+        <option value="$PROJECT_DIR$/src/typeinfo/SimpleProxyDemo.java" />
+        <option value="$PROJECT_DIR$/src/typeinfo/SimpleDynamicProxy.java" />
+        <option value="$PROJECT_DIR$/src/typeinfo/SelectingMethods.java" />
+        <option value="$PROJECT_DIR$/src/typeinfo/Person.java" />
+        <option value="$PROJECT_DIR$/src/typeinfo/Position.java" />
+        <option value="$PROJECT_DIR$/src/typeinfo/Staff.java" />
+        <option value="$PROJECT_DIR$/src/typeinfo/Operation.java" />
+        <option value="$PROJECT_DIR$/src/typeinfo/SnowRemovalRobot.java" />
+        <option value="$PROJECT_DIR$/src/typeinfo/Robot.java" />
+        <option value="$PROJECT_DIR$/src/typeinfo/NullRobot.java" />
+        <option value="$PROJECT_DIR$/src/typeinfo/interfacea/A.java" />
+        <option value="$PROJECT_DIR$/src/typeinfo/InterfaceViolation.java" />
+        <option value="$PROJECT_DIR$/src/typeinfo/packageacess/HiddenC.java" />
+        <option value="$PROJECT_DIR$/src/typeinfo/HiddenImplementation.java" />
       </list>
     </option>
   </component>
@@ -297,9 +501,8 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="770" />
-    <option name="y" value="1" />
-    <option name="width" value="841" />
+    <option name="x" value="528" />
+    <option name="width" value="998" />
     <option name="height" value="876" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -389,8 +592,8 @@
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.postfix.templates" />
-    <property name="settings.editor.splitter.proportion" value="0.24239792" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.splitter.proportion" value="0.24734043" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../knowledge-network-web" />
     <property name="project.structure.last.edited" value="Problems" />
@@ -416,15 +619,15 @@
       <recent name="F:\xusoft\intelliJ IDEA\JavaExcises\src\Generic2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.A">
-    <configuration default="false" name="Shapes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.InterfaceViolation">
+    <configuration default="false" name="SimpleDynamicProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="typeinfo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="typeinfo.Shapes" />
+      <option name="MAIN_CLASS_NAME" value="typeinfo.SimpleDynamicProxy" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -437,34 +640,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="ToyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="typeinfo.toys.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="typeinfo.toys.ToyTest" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JavaExcises" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="ClassInitialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="SelectingMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="typeinfo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="typeinfo.ClassInitialization" />
+      <option name="MAIN_CLASS_NAME" value="typeinfo.SelectingMethods" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -477,14 +660,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="FilledList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Staff" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="typeinfo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="typeinfo.FilledList" />
+      <option name="MAIN_CLASS_NAME" value="typeinfo.Staff" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -497,14 +680,34 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="SnowRemovalRobot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="typeinfo.pets.*" />
+          <option name="PATTERN" value="typeinfo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="typeinfo.pets.A" />
+      <option name="MAIN_CLASS_NAME" value="typeinfo.SnowRemovalRobot" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JavaExcises" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="InterfaceViolation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="typeinfo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="typeinfo.InterfaceViolation" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -934,19 +1137,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Shapes" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ToyTest" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ClassInitialization" />
-      <item index="3" class="java.lang.String" itemvalue="Application.FilledList" />
-      <item index="4" class="java.lang.String" itemvalue="Application.A" />
+      <item index="0" class="java.lang.String" itemvalue="Application.SimpleDynamicProxy" />
+      <item index="1" class="java.lang.String" itemvalue="Application.SelectingMethods" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Staff" />
+      <item index="3" class="java.lang.String" itemvalue="Application.SnowRemovalRobot" />
+      <item index="4" class="java.lang.String" itemvalue="Application.InterfaceViolation" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.A" />
-        <item index="1" class="java.lang.String" itemvalue="Application.FilledList" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ClassInitialization" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Shapes" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ToyTest" />
+        <item index="0" class="java.lang.String" itemvalue="Application.InterfaceViolation" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SnowRemovalRobot" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Staff" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SelectingMethods" />
+        <item index="4" class="java.lang.String" itemvalue="Application.SimpleDynamicProxy" />
       </list>
     </recent_temporary>
   </component>
@@ -967,12 +1170,12 @@
       <workItem from="1496995120210" duration="179076000" />
       <workItem from="1497597411294" duration="1551000" />
       <workItem from="1497707838444" duration="39000" />
-      <workItem from="1497748097720" duration="31943000" />
+      <workItem from="1497748097720" duration="87556000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="240026000" />
+    <option name="totallyTimeSpent" value="295639000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -984,29 +1187,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="770" y="1" width="841" height="876" extended-state="0" />
+    <frame x="528" y="0" width="998" height="876" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32863188" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10296192" sideWeight="0.8192771" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15655853" sideWeight="0.8192771" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20028208" sideWeight="0.20043811" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979593" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16078985" sideWeight="0.79956186" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40338504" sideWeight="0.79956186" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6685473" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.086036675" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28349787" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21393035" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21841542" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32863188" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30042315" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36163837" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24979591" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42454162" sideWeight="0.72727275" order="11" side_tool="false" content_ui="tabs" x="844" y="123" width="732" height="692" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30042315" sideWeight="0.72727275" order="11" side_tool="false" content_ui="tabs" x="844" y="123" width="732" height="692" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1061,29 +1264,41 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/innerclasses/Parcel8.java</url>
-          <line>21</line>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/typeinfo/PetCount.java</url>
+          <line>46</line>
           <properties />
-          <option name="timeStamp" value="197" />
+          <option name="timeStamp" value="278" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/typeinfo/PetCount4.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="289" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://D:/jdk1.8/src.zip!/java/lang/reflect/Proxy.java</url>
+          <line>709</line>
+          <properties />
+          <option name="timeStamp" value="322" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://D:/jdk1.8/src.zip!/java/lang/reflect/Method.java</url>
+          <line>493</line>
+          <properties />
+          <option name="timeStamp" value="323" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/innerclasses/AnonymousConstructor.java</url>
-          <line>27</line>
+          <url>file://$PROJECT_DIR$/src/typeinfo/Robot.java</url>
+          <line>19</line>
           <properties />
-          <option name="timeStamp" value="199" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/innerclasses/AnonymousConstructor.java</url>
-          <line>28</line>
-          <properties />
-          <option name="timeStamp" value="200" />
+          <option name="timeStamp" value="335" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="251" />
+      <option name="time" value="337" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1092,219 +1307,192 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/innerclasses/LocalInnerClass.java">
+    <entry file="jar://D:/jdk1.8/src.zip!/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/innerclasses/BigEgg2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/innerclasses/BigEgg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="19" column="1" selection-start-line="4" selection-start-column="0" selection-end-line="19" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/innerclasses/InheritInner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/innerclasses/GreenhouseControls.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        <state relative-caret-position="132">
+          <caret line="3817" column="0" selection-start-line="3817" selection-start-column="0" selection-end-line="3817" selection-end-column="0" />
           <folding>
-            <element signature="class#LightOn#0;class#GreenhouseControls#0" expanded="false" />
-            <element signature="class#LightOff#0;class#GreenhouseControls#0" expanded="false" />
-            <element signature="class#WaterOn#0;class#GreenhouseControls#0" expanded="false" />
-            <element signature="class#WaterOff#0;class#GreenhouseControls#0" expanded="false" />
-            <element signature="class#ThermostatNight#0;class#GreenhouseControls#0" expanded="false" />
-            <element signature="class#ThermostatDay#0;class#GreenhouseControls#0" expanded="false" />
-            <element signature="class#Bell#0;class#GreenhouseControls#0" expanded="false" />
-            <element signature="class#restart#0;class#GreenhouseControls#0" expanded="false" />
-            <element signature="class#Terminate#0;class#GreenhouseControls#0" expanded="false" />
-            <element signature="class#FanOpen#0;class#GreenhouseControls#0" expanded="false" />
-            <element signature="class#FanOff#0;class#GreenhouseControls#0" expanded="false" />
+            <element signature="e#177496#177497#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/innerclasses/controller/Controller.java">
+    <entry file="jar://D:/jdk1.8/src.zip!/java/util/AbstractList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        <state relative-caret-position="132">
+          <caret line="350" column="0" selection-start-line="350" selection-start-column="0" selection-end-line="350" selection-end-column="0" />
           <folding>
-            <element signature="method#run#0;class#Controller#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/innerclasses/controller/Event.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/holding/ApplesAndOrangesWithGenerics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/holding/GenericsAndUpcasting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-          <folding>
-            <element signature="e#345#352#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/holding/ApplesAndOrangesWithoutGenerics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/holding/Gerbil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#416#424#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/holding/SimpleCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/innerclasses/Sequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk1.8/src.zip!/java/util/Objects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="204" column="5" selection-start-line="204" selection-start-column="5" selection-end-line="204" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk1.8/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="143" column="42" selection-start-line="143" selection-start-column="42" selection-end-line="143" selection-end-column="42" />
-          <folding>
-            <element signature="e#15414#15415#0" expanded="false" />
-            <element signature="e#15459#15460#0" expanded="false" />
+            <element signature="e#11849#11850#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://D:/jdk1.8/src.zip!/java/util/Collections.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="5385" column="54" selection-start-line="5385" selection-start-column="54" selection-end-line="5385" selection-end-column="54" />
+        <state relative-caret-position="132">
+          <caret line="1040" column="42" selection-start-line="1040" selection-start-column="42" selection-end-line="1040" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/jdk1.8/src.zip!/java/util/Arrays.java">
+    <entry file="file://$PROJECT_DIR$/src/net/mindview/util/MapData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="3792" column="10" selection-start-line="3792" selection-start-column="10" selection-end-line="3793" selection-end-column="10" />
+        <state relative-caret-position="209">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding>
-            <element signature="e#177013#177014#0" expanded="false" />
-            <element signature="e#177054#177055#0" expanded="false" />
+            <element signature="e#1736#1737#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/holding/AddingGroups.java">
+    <entry file="jar://D:/jdk1.8/src.zip!/java/util/LinkedHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding>
-            <element signature="e#233#242#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/holding/AsListInference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-          <folding>
-            <element signature="e#607#613#0" expanded="false" />
-            <element signature="e#715#721#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/holding/PrintingContainers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        <state relative-caret-position="150">
+          <caret line="381" column="11" selection-start-line="381" selection-start-column="11" selection-end-line="381" selection-end-column="11" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk1.8/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="246" column="23" selection-start-line="246" selection-start-column="23" selection-end-line="246" selection-end-column="23" />
+          <folding>
+            <element signature="e#19296#19297#0" expanded="false" />
+            <element signature="e#19379#19380#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/typeinfo/pets/LiteralPetCreator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding />
+        <state relative-caret-position="132">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#820#821#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/typeinfo/PetCount3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="36" column="36" selection-start-line="26" selection-start-column="12" selection-end-line="36" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/typeinfo/PetCount4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/mindview/util/TypeCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+          <folding>
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="method#toString#0;class#TypeCounter#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/typeinfo/pets/Pets.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        <state relative-caret-position="212">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#365#366#0" expanded="false" />
+            <element signature="e#413#414#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/typeinfo/factory/Factory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/holding/CoolectionTest.java">
+    <entry file="file://$PROJECT_DIR$/src/typeinfo/FilledList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="217">
+          <caret line="20" column="5" selection-start-line="17" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/typeinfo/pets/PetCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+          <folding>
+            <element signature="method#randomPet#0;class#PetCreator#0" expanded="false" />
+            <element signature="method#createArray#0;class#PetCreator#0" expanded="false" />
+            <element signature="method#arrayList#0;class#PetCreator#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/typeinfo/RegisteredFactories.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#400#425#0" expanded="true" />
+            <element signature="initializer##0;class#Part#0" expanded="false" />
+            <element signature="class#FuelFilter#0" expanded="false" />
+            <element signature="class#Factory#0;class#FuelFilter#0" expanded="false" />
+            <element signature="e#1391#1392#0" expanded="true" />
+            <element signature="e#1438#1439#0" expanded="true" />
+            <element signature="class#AirFilter#0" expanded="false" />
+            <element signature="e#1627#1628#0" expanded="true" />
+            <element signature="e#1673#1674#0" expanded="true" />
+            <element signature="class#CabinAirFilter#0" expanded="false" />
+            <element signature="class#OilFilter#0" expanded="false" />
+            <element signature="e#2117#2118#0" expanded="true" />
+            <element signature="e#2163#2164#0" expanded="true" />
+            <element signature="class#FanBelt#0" expanded="false" />
+            <element signature="e#2370#2371#0" expanded="true" />
+            <element signature="e#2414#2415#0" expanded="true" />
+            <element signature="class#GeneratorBelt#0" expanded="false" />
+            <element signature="e#2613#2614#0" expanded="true" />
+            <element signature="e#2663#2664#0" expanded="true" />
+            <element signature="class#PowerSteeringBelt#0" expanded="false" />
+            <element signature="e#2874#2875#0" expanded="true" />
+            <element signature="e#2928#2929#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/typeinfo/FamilyVsExactType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/typeinfo/pets/PetCreator2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
@@ -1312,274 +1500,436 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/typeinfo/ShowMethods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/holding/ListFeatures.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/holding/SimpleIteration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/typeinfo/SweetShop.java">
+    <entry file="jar://D:/jdk1.8/src.zip!/java/lang/StringBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        <state relative-caret-position="107">
+          <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+          <folding>
+            <element signature="e#2896#2897#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/typeinfo/SimpleDynamicProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="method#consumer#0;class#SimpleDynamicProxy#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk1.8/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="333" column="0" selection-start-line="333" selection-start-column="0" selection-end-line="333" selection-end-column="0" />
+          <folding>
+            <element signature="e#11597#11598#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk1.8/src.zip!/java/util/Objects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="203" column="0" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/typeinfo/toys/ToyTest.java">
+    <entry file="jar://D:/jdk1.8/src.zip!/java/lang/ref/ReferenceQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-288">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding>
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="189">
+          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://D:/jdk1.8/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="147" column="31" selection-start-line="147" selection-start-column="31" selection-end-line="147" selection-end-column="31" />
-          <folding>
-            <element signature="e#5748#5749#0" expanded="false" />
-            <element signature="e#5784#5785#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/typeinfo/Shapes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="52" column="1" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#566#567#0" expanded="true" />
-            <element signature="e#634#635#0" expanded="true" />
-            <element signature="e#667#668#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/typeinfo/ClassInitialization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/typeinfo/GenericClassReferences.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/typeinfo/WildcardClassRefernces.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/typeinfo/BoundedClassRefernces.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/typeinfo/FilledList.java">
+    <entry file="jar://D:/jdk1.8/src.zip!/java/lang/ref/Reference.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="e#228#229#0" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#849#865#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/typeinfo/ClassCasts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="352">
+          <caret line="308" column="0" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/typeinfo/pets/Person.java">
+    <entry file="jar://D:/jdk1.8/src.zip!/java/lang/ref/WeakReference.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="352">
+          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
           <folding>
-            <element signature="e#150#151#0" expanded="true" />
-            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#1898#1899#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/typeinfo/pets/Individual.java">
+    <entry file="jar://D:/jdk1.8/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+        <state relative-caret-position="432">
+          <caret line="950" column="0" selection-start-line="950" selection-start-column="0" selection-end-line="950" selection-end-column="0" />
           <folding>
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="method#compareTo#0;class#Individual#0" expanded="false" />
+            <element signature="e#32334#32335#0" expanded="false" />
+            <element signature="e#32385#32386#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/typeinfo/pets/Pet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="5" selection-start-line="6" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="e#143#144#0" expanded="true" />
-            <element signature="e#170#171#0" expanded="true" />
-            <element signature="e#193#194#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/typeinfo/pets/Dog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="14" />
-          <folding>
-            <element signature="e#136#137#0" expanded="true" />
-            <element signature="e#163#164#0" expanded="true" />
-            <element signature="e#186#187#0" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/typeinfo/pets/Mutt.java">
+    <entry file="jar://D:/jdk1.8/src.zip!/java/lang/reflect/WeakCache.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
+          <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+          <folding>
+            <element signature="e#12332#12333#0" expanded="false" />
+            <element signature="e#12367#12368#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/typeinfo/pets/Pug.java">
+    <entry file="jar://D:/jdk1.8/src.zip!/java/lang/reflect/Proxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="162">
+          <caret line="718" column="0" selection-start-line="718" selection-start-column="0" selection-end-line="718" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/typeinfo/pets/Cat.java">
+    <entry file="jar://D:/jdk1.8/src.zip!/java/lang/reflect/InvocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-694">
+          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/mindview/util/Print.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#161#162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk1.8/jre/lib/rt.jar!/sun/reflect/Reflection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk1.8/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="497" column="0" selection-start-line="497" selection-start-column="0" selection-end-line="497" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/typeinfo/SimpleProxyDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+          <folding>
+            <element signature="class#RealObject#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/typeinfo/SelectingMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-256">
+          <caret line="7" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#SomeMethods#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/typeinfo/Position.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <element signature="method#Position#0;class#Position#0" expanded="false" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#849#850#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/typeinfo/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#641#642#0" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#753#754#0" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk1.8/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="845" column="0" selection-start-line="845" selection-start-column="0" selection-end-line="845" selection-end-column="0" />
+          <folding>
+            <element signature="e#30684#30685#0" expanded="true" />
+            <element signature="e#30716#30717#0" expanded="true" />
+            <element signature="e#31086#31087#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk1.8/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="977" column="0" selection-start-line="977" selection-start-column="0" selection-end-line="977" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/typeinfo">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>typeinfo</OriginalElement>
+          <nodes>
+            <node x="" y="">typeinfo.Staff</node>
+            <node x="" y="">typeinfo.Interface</node>
+            <node x="" y="">typeinfo.ClassTest</node>
+            <node x="" y="">typeinfo.SimpleProxyDemo</node>
+            <node x="" y="">typeinfo.Shapes</node>
+            <node x="" y="">typeinfo.CountedInteger</node>
+            <node x="" y="">typeinfo.BoundedClassRefernces</node>
+            <node x="" y="">typeinfo.toys</node>
+            <node x="" y="">typeinfo.Belt</node>
+            <node x="" y="">typeinfo.SimpleDynamicProxy</node>
+            <node x="" y="">typeinfo.SelectingMethods</node>
+            <node x="" y="">typeinfo.RegisteredFactories</node>
+            <node x="" y="">typeinfo.SnowRemovalRobot</node>
+            <node x="" y="">typeinfo.Rhomboid</node>
+            <node x="" y="">typeinfo.SweetShop</node>
+            <node x="" y="">typeinfo.Position</node>
+            <node x="" y="">typeinfo.ShowMethods</node>
+            <node x="" y="">typeinfo.Cookie</node>
+            <node x="" y="">typeinfo.Person</node>
+            <node x="" y="">typeinfo.Circle</node>
+            <node x="" y="">typeinfo.GeneratorBelt</node>
+            <node x="" y="">typeinfo.FanBelt</node>
+            <node x="" y="">typeinfo.Triangle</node>
+            <node x="" y="">typeinfo.ClassInitialization</node>
+            <node x="" y="">typeinfo.DynamicProxyHandler</node>
+            <node x="" y="">typeinfo.Initable3</node>
+            <node x="" y="">typeinfo.Initable2</node>
+            <node x="" y="">typeinfo.PetCount4</node>
+            <node x="" y="">typeinfo.PetCount2</node>
+            <node x="" y="">typeinfo.PetCount3</node>
+            <node x="" y="">typeinfo.CabinAirFilter</node>
+            <node x="" y="">typeinfo.Building</node>
+            <node x="" y="">typeinfo.Base</node>
+            <node x="" y="">typeinfo.Initable</node>
+            <node x="" y="">typeinfo.Shape</node>
+            <node x="" y="">typeinfo.FuelFilter</node>
+            <node x="" y="">typeinfo.SimpleProxy</node>
+            <node x="" y="">typeinfo.Gum</node>
+            <node x="" y="">typeinfo.PowerSteeringBelt</node>
+            <node x="" y="">typeinfo.Part</node>
+            <node x="" y="">typeinfo.WildcardClassReferences</node>
+            <node x="" y="">typeinfo.PetCount</node>
+            <node x="" y="">typeinfo.Square</node>
+            <node x="" y="">typeinfo.RealObject</node>
+            <node x="" y="">typeinfo.AirFilter</node>
+            <node x="" y="">typeinfo.Implementation</node>
+            <node x="" y="">typeinfo.MethodSelector</node>
+            <node x="" y="">typeinfo.Filter</node>
+            <node x="" y="">typeinfo.FamilyVsExactType</node>
+            <node x="" y="">typeinfo.House</node>
+            <node x="" y="">typeinfo.pets</node>
+            <node x="" y="">typeinfo.GenericClassReferences</node>
+            <node x="" y="">typeinfo.Robot</node>
+            <node x="" y="">typeinfo.FilledList</node>
+            <node x="" y="">typeinfo.Candy</node>
+            <node x="" y="">typeinfo.Derived</node>
+            <node x="" y="">typeinfo.OilFilter</node>
+            <node x="" y="">typeinfo.SomeMethods</node>
+            <node x="" y="">typeinfo.ClassCasts</node>
+            <node x="" y="">typeinfo.Operation</node>
+            <node x="" y="">typeinfo.factory</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.8337349397590361" x="693.8280346820809" y="245.03179190751445" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/typeinfo.SnowRemovalRobot">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>typeinfo.SnowRemovalRobot</OriginalElement>
+          <nodes>
+            <node x="" y="">typeinfo.SnowRemovalRobot</node>
+            <node x="" y="">typeinfo.Robot</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="84.0" y="57.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/typeinfo/Operation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/typeinfo/pets/EgyptianMau.java">
+    <entry file="file://$PROJECT_DIR$/src/typeinfo/Staff.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/typeinfo/pets/Manx.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/typeinfo/pets/Cymric.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/typeinfo/pets/Rodent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="13" column="5" selection-start-line="10" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/typeinfo/pets/Rat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="954">
+          <caret line="56" column="32" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
           <folding>
-            <element signature="e#140#141#0" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/typeinfo/pets/Mouse.java">
+    <entry file="file://$PROJECT_DIR$/src/typeinfo/Robot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/typeinfo/pets/Hamster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/typeinfo/pets/PetCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+        <state relative-caret-position="216">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
           <folding>
-            <element signature="method#randomPet#0;class#PetCreator#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="class#Test#0;class#Robot#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/mindview/util/Null.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/typeinfo/SnowRemovalRobot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#831#832#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#977#978#0" expanded="true" />
+            <element signature="class#1010:1300" expanded="false" />
+            <element signature="e#1215#1216#0" expanded="true" />
+            <element signature="e#1289#1290#0" expanded="true" />
+            <element signature="class#1322:1707" expanded="false" />
+            <element signature="e#1420#1421#0" expanded="true" />
+            <element signature="e#1503#1504#0" expanded="true" />
+            <element signature="e#1597#1598#0" expanded="true" />
+            <element signature="e#1688#1689#0" expanded="true" />
+            <element signature="e#1772#1773#0" expanded="true" />
+            <element signature="e#1836#1837#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/typeinfo/NullRobot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+            <element signature="e#698#699#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/typeinfo/interfacea/A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/typeinfo/InterfaceViolation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="49" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="49" />
+          <folding>
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/typeinfo/packageacess/HiddenC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/typeinfo/HiddenImplementation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
