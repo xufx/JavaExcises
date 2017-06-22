@@ -1,36 +1,40 @@
 package holding;
+import typeinfo.pets.*;
+
 import java.util.*;
-/**List练习
+
+import static net.mindview.util.Print.print;
+/**
+ * List练习
  * Created by Administrator on 2017/6/18.
  */
-import sun.security.ssl.HandshakeOutStream;
-import typeinfo.pets.*;
-import static net.mindview.util.Print.*;
-public class ListFeatures
+public class ListFeatures2
 {
     public static void main(String[] args) throws Exception
     {
         Random rand=new Random(47);
-       List<Pet> pets=Pets.arrayList(7);
+       List<Integer> pets=new ArrayList<Integer>();
         System.out.println("1:"+pets);
 
-        Hamster h=new Hamster();
-        pets.add(h);
+        pets.add(1);
+        pets.add(2);
+        pets.add(3);
+        pets.add(4);
         print("2:"+pets);
-        print("3:"+pets.contains(h));//true
+        print("3:"+pets.contains(1));//true
 
-        pets.remove(h);
-        Pet p=pets.get(2);
+        pets.remove(1);
+        Integer p=pets.get(2);
         print("4:"+p+" "+pets.indexOf(p));
-        Pet cymric=new Cymric();
-        print("5:"+pets.indexOf(cymric)); //Cymric继承Manx ，返回的是manx的index
-        print("6:"+pets.remove(cymric));
+
+        print("5:"+pets.indexOf(3)); //Cymric继承Manx ，返回的是manx的index
+        print("6:"+pets.remove(2));
         print("7:"+pets.remove(p));
         print("8:"+pets);
 
-        pets.add(3,new Mouse());
+        pets.add(2,new Integer(10));
         print("9:"+pets);
-        List<Pet> sub=pets.subList(1,4);
+        List<Integer> sub=pets.subList(1,2);
         print("sublist:"+sub);
         print("10："+pets.containsAll(sub));
         Collections.sort(sub);//按字母进行排序
@@ -41,14 +45,14 @@ public class ListFeatures
         print("shuffled sublist:"+sub);
         print("12："+pets.containsAll(sub));
 
-        List<Pet>copy=new ArrayList<Pet>(pets);
-        sub=Arrays.asList(pets.get(1),pets.get(4));
+        List<Integer>copy=new ArrayList<Integer>(pets);
+        sub=Arrays.asList(pets.get(1),pets.get(2));
         print("sub:"+sub);
 
         copy.retainAll(sub);
         print("13:"+copy);
 
-        copy.remove(2);
+        copy.remove(1);
         print("14:"+copy);
 /*
 
@@ -57,23 +61,22 @@ public class ListFeatures
 */
 
 
-        copy.set(1,new Mouse());
+        copy.set(0,new Integer(20));
         print("16:"+copy);
 
 
-        copy.addAll(2,sub);
+        copy.addAll(1,sub);
         print("17:"+copy);
         print("18:"+pets.isEmpty());
         pets.clear();
         print("19:"+copy);
         print("20:"+pets.isEmpty());
 
-        pets.addAll(Pets.arrayList(4));
+        pets.addAll(new ArrayList<Integer>(copy));
         print("21:"+pets);
-        Object[] o=pets.toArray();//将序列转化为对象数组
+        Object[] o=copy.toArray();//将序列转化为对象数组
         print("22:"+o[3]);
 
-        Pet[] pa=pets.toArray(new Pet[0]);//将序列转化为对象数组
-        print("23:"+pa[3].id());
+        Integer[] pa=copy.toArray(new Integer[0]);//将序列转化为对象数组
     }
 }

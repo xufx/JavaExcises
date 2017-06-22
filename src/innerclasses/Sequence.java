@@ -1,4 +1,9 @@
 package innerclasses;
+import typeinfo.pets.Pet;
+import typeinfo.pets.Pets;
+
+import java.util.ArrayList;
+import java.util.Iterator;
 /**练习使用内部类
  * Created by Administrator on 2017/6/14.
  */
@@ -37,7 +42,6 @@ public class Sequence
         {
             if(i<items.length)i++;
         }
-
     }
     public Selector selector()
     {
@@ -61,5 +65,6 @@ class Test
             System.out.println(selector.current()+" ");
             selector.next();
         }
+
     }
 }

@@ -35,7 +35,7 @@ public abstract class PetCreator
         }
         return result;
     }
-    /*创建序列，添加数组到序列后面*/
+    /*随机创建包含size个元素的序列，对象为Pet类型*/
     public ArrayList<Pet> arrayList(int size)
     {//arrayList方法返回ArrayList序列，序列里面的对象都是Pet类型
         ArrayList<Pet> result=new ArrayList<Pet>();//result序列存储的是Pet类型的对象
