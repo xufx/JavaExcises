@@ -36,6 +36,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6df1ebf-1d96-4286-ad60-92df38eb9f62" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/holding/AdapterMethodIdiom.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/holding/ArrayIsNotIterable.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/holding/EnvironmentVariables.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/holding/ModifyingArrayAsList.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/holding/MultiIterableClass$1$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/holding/MultiIterableClass$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/holding/MultiIterableClass$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/holding/MultiIterableClass.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/holding/ReversibleArrayList$1$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/holding/ReversibleArrayList$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/holding/ReversibleArrayList.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/polymorphism/music/Brass.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaExcises/polymorphism/music/Stringed.class" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/holding/AdapterMethodIdiom.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/holding/ArrayIsNotIterable.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/holding/EnvironmentVariables.java" />
@@ -120,25 +133,25 @@
       <file leaf-file-name="NonCollectionSequence.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/holding/NonCollectionSequence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+            <state relative-caret-position="105">
+              <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;class#PetSequence#0" expanded="true" />
-                <element signature="class#301:755" expanded="true" />
+                <element signature="class#300:754" expanded="true" />
                 <element signature="method#reversed#0;class#NonCollectionSequence#0" expanded="true" />
-                <element signature="class#823:1564" expanded="true" />
-                <element signature="method#iterator#0;class#823:1564" expanded="true" />
-                <element signature="class#934:1539" expanded="true" />
-                <element signature="e#1111#1112#0" expanded="true" />
-                <element signature="e#1176#1177#0" expanded="true" />
-                <element signature="e#1267#1268#0" expanded="true" />
-                <element signature="e#1337#1338#0" expanded="true" />
-                <element signature="e#1431#1432#0" expanded="true" />
-                <element signature="e#1520#1521#0" expanded="true" />
+                <element signature="class#822:1563" expanded="true" />
+                <element signature="method#iterator#0;class#822:1563" expanded="true" />
+                <element signature="class#933:1538" expanded="true" />
+                <element signature="e#1110#1111#0" expanded="true" />
+                <element signature="e#1175#1176#0" expanded="true" />
+                <element signature="e#1266#1267#0" expanded="true" />
+                <element signature="e#1336#1337#0" expanded="true" />
+                <element signature="e#1430#1431#0" expanded="true" />
+                <element signature="e#1519#1520#0" expanded="true" />
                 <element signature="method#randomized#0;class#NonCollectionSequence#0" expanded="true" />
-                <element signature="class#1635:1925" expanded="true" />
-                <element signature="method#iterator#0;class#1635:1925" expanded="true" />
+                <element signature="class#1634:1924" expanded="true" />
+                <element signature="method#iterator#0;class#1634:1924" expanded="true" />
                 <element signature="method#main#0;class#NonCollectionSequence#0" expanded="true" />
               </folding>
             </state>
@@ -997,12 +1010,12 @@
       <workItem from="1497748097720" duration="87663000" />
       <workItem from="1498020280638" duration="43150000" />
       <workItem from="1498181705527" duration="5616000" />
-      <workItem from="1498188324606" duration="10298000" />
+      <workItem from="1498188324606" duration="10875000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="354810000" />
+    <option name="totallyTimeSpent" value="355387000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1028,7 +1041,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.90613717" sideWeight="0.79956186" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66787004" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.65416664" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.375" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25967413" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1588,25 +1601,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/holding/NonCollectionSequence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        <state relative-caret-position="105">
+          <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;class#PetSequence#0" expanded="true" />
-            <element signature="class#301:755" expanded="true" />
+            <element signature="class#300:754" expanded="true" />
             <element signature="method#reversed#0;class#NonCollectionSequence#0" expanded="true" />
-            <element signature="class#823:1564" expanded="true" />
-            <element signature="method#iterator#0;class#823:1564" expanded="true" />
-            <element signature="class#934:1539" expanded="true" />
-            <element signature="e#1111#1112#0" expanded="true" />
-            <element signature="e#1176#1177#0" expanded="true" />
-            <element signature="e#1267#1268#0" expanded="true" />
-            <element signature="e#1337#1338#0" expanded="true" />
-            <element signature="e#1431#1432#0" expanded="true" />
-            <element signature="e#1520#1521#0" expanded="true" />
+            <element signature="class#822:1563" expanded="true" />
+            <element signature="method#iterator#0;class#822:1563" expanded="true" />
+            <element signature="class#933:1538" expanded="true" />
+            <element signature="e#1110#1111#0" expanded="true" />
+            <element signature="e#1175#1176#0" expanded="true" />
+            <element signature="e#1266#1267#0" expanded="true" />
+            <element signature="e#1336#1337#0" expanded="true" />
+            <element signature="e#1430#1431#0" expanded="true" />
+            <element signature="e#1519#1520#0" expanded="true" />
             <element signature="method#randomized#0;class#NonCollectionSequence#0" expanded="true" />
-            <element signature="class#1635:1925" expanded="true" />
-            <element signature="method#iterator#0;class#1635:1925" expanded="true" />
+            <element signature="class#1634:1924" expanded="true" />
+            <element signature="method#iterator#0;class#1634:1924" expanded="true" />
             <element signature="method#main#0;class#NonCollectionSequence#0" expanded="true" />
           </folding>
         </state>
