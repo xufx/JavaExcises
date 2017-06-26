@@ -1,7 +1,5 @@
 package strings;
-import java.util.Arrays;
-import java.util.Scanner;
-import java.util.StringTokenizer;
+import java.util.*;
 /**
  * Created by Administrator on 2017/6/26.
  */
