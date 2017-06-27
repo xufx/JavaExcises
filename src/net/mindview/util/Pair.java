@@ -1,11 +1,14 @@
-//: net/mindview/util/Pair.java
 package net.mindview.util;
-
-public class Pair<K,V> {
-  public final K key;
-  public final V value;
-  public Pair(K k, V v) {
-    key = k;
-    value = v;
-  }
-} ///:~
+/**
+ * Created by Administrator on 2017/6/27.
+ */
+public class Pair<K,V>
+{
+    public final K key;
+    public final V value;
+    public Pair(K key, V value)
+    {
+        this.key = key;
+        this.value = value;
+    }
+}
