@@ -9,7 +9,6 @@ import java.util.*;
 class PetSequence
 {
     protected Pet[] pets= Pets.createArray(8);
-
 }
 public class NonCollectionSequence extends PetSequence
 {
