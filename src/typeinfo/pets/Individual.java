@@ -34,7 +34,7 @@ public class Individual implements Comparable<Individual>
     }
     @Override
     public int compareTo(Individual arg)
-    {
+    {//compare by class name first,无论如何都会执行
         String first=getClass().getSimpleName();
         String argFirst=arg.getClass().getSimpleName();
         int firstCompare=first.compareTo(argFirst);
