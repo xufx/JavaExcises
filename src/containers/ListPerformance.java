@@ -80,7 +80,20 @@ public class ListPerformance
                 {
                     list.clear();
                     list.addAll(new CountingIntegerList(size));
-                    while (list.size()>5))list.remove(5);
+                    while (list.size()>5)list.remove(5);
+                }
+                return loops*size;
+            }
+        });
+        qTests.add(new Test<LinkedList<Integer>>("addFirst")
+        {
+            int test(LinkedList<Integer>list,TestParam tp)
+            {
+                int loops=tp.loops;
+                int size=tp.size;
+                for (int i = 0; i < size; i++)
+                {
+                    list.addFirst(47);
                 }
                 return loops*size;
             }
