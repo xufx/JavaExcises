@@ -31,10 +31,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6df1ebf-1d96-4286-ad60-92df38eb9f62" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/containers/SetPerformance.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/enumerated/EnumClass.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/enumerated/Spiciness.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaExcises/containers/SetPerformance$1.class" afterPath="$PROJECT_DIR$/out/production/JavaExcises/containers/SetPerformance$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaExcises/containers/SetPerformance$2.class" afterPath="$PROJECT_DIR$/out/production/JavaExcises/containers/SetPerformance$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaExcises/containers/SetPerformance$3.class" afterPath="$PROJECT_DIR$/out/production/JavaExcises/containers/SetPerformance$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaExcises/containers/SetPerformance.class" afterPath="$PROJECT_DIR$/out/production/JavaExcises/containers/SetPerformance.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/ListPerformance.java" afterPath="$PROJECT_DIR$/src/containers/ListPerformance.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/Tester.java" afterPath="$PROJECT_DIR$/src/containers/Tester.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/SetPerformance.java" afterPath="$PROJECT_DIR$/src/containers/SetPerformance.java" />
     </list>
     <ignored path="JavaExcises.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,38 +66,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CountedString.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/CountedString.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#498#499#0" expanded="true" />
-                <element signature="e#568#569#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Individual.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/typeinfo/pets/Individual.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="36" column="43" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="IndividualTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/typeinfo/pets/IndividualTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
               <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -103,7 +81,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
               <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-              <folding />
+              <folding>
+                <element signature="e#158#159#0" expanded="false" />
+                <element signature="e#190#191#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -143,14 +124,42 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SetPerformance.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SetPerformance.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/SetPerformance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="58" column="41" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="207">
+              <caret line="67" column="18" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EnumClass.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/enumerated/EnumClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Spiciness.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/enumerated/Spiciness.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="21" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Enum.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/jdk1.8/src.zip!/java/lang/Enum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="204" column="21" selection-start-line="203" selection-start-column="7" selection-end-line="204" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -160,16 +169,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="129">
               <caret line="233" column="33" selection-start-line="233" selection-start-column="33" selection-end-line="233" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MapOfList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/holding/MapOfList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -195,8 +194,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/net/mindview/util/RandomGeneratorsTest.java" />
-        <option value="$PROJECT_DIR$/src/arrays/CopyingArrays.java" />
         <option value="$PROJECT_DIR$/src/arrays/ComparingArrays.java" />
         <option value="$PROJECT_DIR$/src/arrays/ArrayTest.java" />
         <option value="$PROJECT_DIR$/src/arrays/CompType.java" />
@@ -244,8 +241,10 @@
         <option value="$PROJECT_DIR$/src/containers/Test.java" />
         <option value="$PROJECT_DIR$/src/containers/TestParam.java" />
         <option value="$PROJECT_DIR$/src/containers/ListPerformance.java" />
-        <option value="$PROJECT_DIR$/src/containers/SetPerformance.java" />
         <option value="$PROJECT_DIR$/src/containers/Tester.java" />
+        <option value="$PROJECT_DIR$/src/containers/SetPerformance.java" />
+        <option value="$PROJECT_DIR$/src/enumerated/EnumClass.java" />
+        <option value="$PROJECT_DIR$/src/enumerated/Spiciness.java" />
       </list>
     </option>
   </component>
@@ -308,7 +307,50 @@
         <subPane />
       </pane>
       <pane id="PackagesPane">
-        <subPane />
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaExcises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaExcises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaExcises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaExcises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="enumerated" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Spiciness.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaExcises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaExcises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="enumerated" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
       </pane>
     </panes>
   </component>
@@ -327,27 +369,7 @@
       <recent name="containers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SetPerformance">
-    <configuration default="false" name="SimpleHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="containers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="containers.SimpleHashMap" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JavaExcises" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.EnumClass">
     <configuration default="false" name="StringHashCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -416,6 +438,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="containers.SetPerformance" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JavaExcises" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="EnumClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="enumerated.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="enumerated.EnumClass" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -854,19 +896,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.SimpleHashMap" />
-      <item index="1" class="java.lang.String" itemvalue="Application.StringHashCode" />
-      <item index="2" class="java.lang.String" itemvalue="Application.CountedString" />
-      <item index="3" class="java.lang.String" itemvalue="Application.IndividualTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.SetPerformance" />
+      <item index="0" class="java.lang.String" itemvalue="Application.StringHashCode" />
+      <item index="1" class="java.lang.String" itemvalue="Application.CountedString" />
+      <item index="2" class="java.lang.String" itemvalue="Application.IndividualTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.SetPerformance" />
+      <item index="4" class="java.lang.String" itemvalue="Application.EnumClass" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.SetPerformance" />
-        <item index="1" class="java.lang.String" itemvalue="Application.IndividualTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.CountedString" />
-        <item index="3" class="java.lang.String" itemvalue="Application.StringHashCode" />
-        <item index="4" class="java.lang.String" itemvalue="Application.SimpleHashMap" />
+        <item index="0" class="java.lang.String" itemvalue="Application.EnumClass" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SetPerformance" />
+        <item index="2" class="java.lang.String" itemvalue="Application.IndividualTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.CountedString" />
+        <item index="4" class="java.lang.String" itemvalue="Application.StringHashCode" />
       </list>
     </recent_temporary>
   </component>
@@ -898,16 +940,16 @@
       <workItem from="1498612771319" duration="30620000" />
       <workItem from="1498737252042" duration="6149000" />
       <workItem from="1498786644838" duration="75000" />
-      <workItem from="1498792842879" duration="2508000" />
+      <workItem from="1498792842879" duration="4802000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="459725000" />
+    <option name="totallyTimeSpent" value="462019000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="681" y="5" width="933" height="860" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32863188" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -916,18 +958,18 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20028208" sideWeight="0.20043811" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979593" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52669555" sideWeight="0.79956186" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42424244" sideWeight="0.79956186" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6685473" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.085137084" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35786435" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21749137" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21749137" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32863188" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41311854" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24979591" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.17489421" sideWeight="0.72727275" order="11" side_tool="false" content_ui="tabs" x="813" y="131" width="764" height="741" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.17489421" sideWeight="0.72727275" order="11" side_tool="false" content_ui="tabs" x="943" y="131" width="634" height="741" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1149,7 +1191,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="515" />
+      <option name="time" value="517" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1158,30 +1200,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/jdk1.8/src.zip!/java/util/Iterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk1.8/src.zip!/java/util/TreeMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="1264" column="0" selection-start-line="1264" selection-start-column="0" selection-end-line="1264" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/SortedSetDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-          <folding>
-            <element signature="e#216#224#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/net/mindview/util/Generator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -1243,7 +1261,7 @@
         <state relative-caret-position="144">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
-            <element signature="e#444#453#0" expanded="true" />
+            <element signature="e#444#453#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1472,11 +1490,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
           <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1484,7 +1498,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
           <caret line="36" column="43" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
-          <folding />
+          <folding>
+            <element signature="e#270#271#0" expanded="false" />
+            <element signature="e#302#303#0" expanded="false" />
+            <element signature="e#377#378#0" expanded="false" />
+            <element signature="e#482#483#0" expanded="false" />
+            <element signature="e#557#558#0" expanded="false" />
+            <element signature="e#629#630#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1492,9 +1513,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1502,7 +1521,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding />
+          <folding>
+            <element signature="e#158#159#0" expanded="false" />
+            <element signature="e#190#191#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1545,11 +1567,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/SetPerformance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="58" column="41" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="207">
+          <caret line="67" column="18" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk1.8/src.zip!/java/lang/Enum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="204" column="21" selection-start-line="203" selection-start-column="7" selection-end-line="204" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/enumerated/EnumClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/enumerated/Spiciness.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
