@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="apt-mirror-api-0.1-sources">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://D:/maven/my_local_repository/apt-mirror-api-0.1-sources.jar" />
+    </SOURCES>
+    <jarDirectory url="file://D:/maven/my_local_repository/apt-mirror-api-0.1-sources.jar" recursive="false" type="SOURCES" />
+  </library>
+</component>
