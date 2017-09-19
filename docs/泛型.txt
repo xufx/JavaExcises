@@ -8,7 +8,7 @@ ArrayList files=new ArrayList();
 String filename=(String)files.get(0);
 files.add(new File("");
 
-泛型
+泛型定义的两种方式
 ArrayList<String> files=new ArrayList<String>();
 ArrayList<String> files=new ArrayList<>();
 泛型程序设计划分为3个能力级别：

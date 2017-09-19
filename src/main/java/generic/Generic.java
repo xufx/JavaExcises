@@ -15,7 +15,7 @@ public class Generic
         str.add("xing");
         str.add("qi");
         for (Iterator<String> iter=str.iterator();iter.hasNext();)
-        {
+        {//迭代器的使用
             String s=iter.next();
             System.out.println(s);
         }

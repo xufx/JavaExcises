@@ -27,6 +27,8 @@ class ArrayAlg
 /*gets the minimum and maximum of an array of objects of type T.
 a:an array of objects of type t
 return a pair with the min and max value,
+* extends：限定子类型
+* 数组参数类型：T
 * */
     public static <T extends  Comparable> Pair<T>minmax(T[] a)
     {
