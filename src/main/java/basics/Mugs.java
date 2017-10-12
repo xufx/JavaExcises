@@ -19,7 +19,7 @@ public class Mugs
     Mug mug1;
     Mug mug2;
     {
-        mug1=new Mug(1);
+        mug1=new Mug(1);//每次new时都会被初始化
         mug2=new Mug(2);
         System.out.println("mug1 & mug2 initialized");
     }

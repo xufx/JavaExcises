@@ -1,10 +1,11 @@
 package reusing;
-
+import static util.Common.sy;
 /**
  * Created by Administrator on 2017/6/11.
  */
 class WaterSource
 {
+    static final Integer b=2;
     private  String s;
     WaterSource()
     {
@@ -15,6 +16,7 @@ class WaterSource
 }
 public class SprinklerSystem
 {
+    static final Integer a=3;
     private String valvel1,valvel2,valvel3,valvel4;
     private WaterSource source=new WaterSource();
     private  int i;
@@ -28,7 +30,10 @@ public class SprinklerSystem
                         "valvel4="+valvel4+"\n"+
                         "i="+i+" "+"f="+f+" "+"source="+source;
     }
-
+    public SprinklerSystem()
+    {
+        sy("SpringkerSystem");
+    }
     public static void main(String[] args)
     {
         SprinklerSystem sprinklers=new SprinklerSystem();

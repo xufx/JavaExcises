@@ -16,7 +16,8 @@ class Book
     }
     protected  void finalize()
     {
-        if (checkedOut)System.out.println("Error:checked out");
+        if (checkedOut)
+        {System.out.println("Error:checked out");}
     }
 }
 public class TerminationCondition

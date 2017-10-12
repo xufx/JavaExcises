@@ -14,11 +14,20 @@ public class VarArgs
             System.out.println(obj);
         }
     }
-
+    static void printArray2(Object ... args)
+    {
+        for (Object obj:args)
+        {
+            System.out.println(obj);
+        }
+    }
     public static void main(String[] args)
     {
-        printArray(new Object[]{new Integer(47),new Float(3.14),new Double(11.11)});
-        printArray(new Object[]{"one","two","three"});
-        printArray(new Object[]{new A(),new A(),new A()});
+        printArray2(new Object[]{new Integer(47),new Float(3.14),new Double(11.11)});
+        printArray2(new Object[]{"one","two","three"});
+        printArray2(new Object[]{new A(),new A(),new A()});
+        printArray2();
+        printArray2((Object[])new Integer[]{4,5,6});
+        printArray(new Integer[]{1,2,3,4});
     }
 }

@@ -1,7 +1,7 @@
 package reflect;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
-/**反射工具类
+/**反射工具类,获取或指定类的私有域
  * Created by xufuxiu on 2017/9/19.
  */
 public class ReflectionUtil

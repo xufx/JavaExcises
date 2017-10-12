@@ -9,5 +9,6 @@ class Cake
     {
         Pie x=new Pie();
         x.f();
+        Math.random();
     }
 }

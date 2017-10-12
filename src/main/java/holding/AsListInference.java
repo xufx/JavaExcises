@@ -16,7 +16,7 @@ public class AsListInference
         List<Snow> snow1= Arrays.asList
                 ( new Crusty(),new Slush(),new Power()
                 );
-        List<Snow> snow2= Arrays.asList
+        List<Power> snow2=Arrays.asList
                 ( new Light(),new Heavy()
                 );
         Collections.addAll(snow2);

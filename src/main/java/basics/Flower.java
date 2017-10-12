@@ -21,7 +21,7 @@ public class Flower
     Flower(String s,int petals)
     {
        this(petals);
-       this.s=s;
+       this.s=s;//this.s类的成员，s:传递过来的数
         System.out.println("String & int args");
     }
     Flower()

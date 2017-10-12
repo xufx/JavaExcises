@@ -8,4 +8,8 @@ public class Common
     {
         System.out.println(o);
     }
+    public static void sw(Object o)
+    {
+        System.out.print(o);
+    }
 }

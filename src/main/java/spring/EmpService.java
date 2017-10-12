@@ -4,4 +4,5 @@ package spring;
  */
 public interface EmpService
 {
+    void addEmp(final Emp emp);
 }

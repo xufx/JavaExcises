@@ -16,9 +16,9 @@ class Soap
 public class Bath
 {
     private  String
-    s1="happy",
-    s2="HAPPY",
-    s3,s4;
+                    s1="happy",
+                    s2="HAPPY",
+                    s3,s4;
     private Soap castile;
     private int i;
     private float toy;
@@ -48,5 +48,5 @@ public class Bath
         Bath b=new Bath();
         System.out.println(b);
     }
-    }
+}
 
