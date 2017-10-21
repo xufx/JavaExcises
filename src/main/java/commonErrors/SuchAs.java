@@ -18,6 +18,7 @@ public class SuchAs
         sy(a==b);//false,比较两个对象指向的地址
         sy(a==c);//true
 
+        /*如果整型字面量的值在-128到127之间，那么不会new新的Integer对象，而是直接引用常量池中的Integer对象*/
         Integer f1=100,f2=100,f3=150,f4=150;
         sy(f1==f2);//true
         sy(f3==f4);//false
@@ -52,10 +53,6 @@ public class SuchAs
 
         String s2=new String(s.getBytes("GB2312"),"ISO-8859-1");
         sy(s2);
-
-
-
-
     }
     public static void swap(int x,int y)
     {
